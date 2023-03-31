@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <StartArguments>/Users/npalardy/Desktop/converter/2019r1.1/web/untitled.xojo_binary_project</StartArguments>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'in_and_out' ">
+    <StartAction>Project</StartAction>
+    <StartArguments>"/Users/npalardy/Great White Software/Xojo Converter/Xojo Converter Samples/2019r1.1/desktop/to_convert.xojo_binary_project" "/Users/npalardy/Great White Software/Xojo Converter/Xojo Converter Samples/2019r1.1/desktop/converted_by_cs.xojo_xml_project"</StartArguments>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+</Project>
